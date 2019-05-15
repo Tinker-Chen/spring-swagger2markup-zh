@@ -1,0 +1,15 @@
+#SERVER
+server:
+  port: 9080
+  session:
+    timeout: 3600
+
+#SPRING
+spring:
+  application:
+    name: swagger2-markup-zh
+  http:
+    encoding:
+      charset: utf-8
+      enabled: true
+      force: true
